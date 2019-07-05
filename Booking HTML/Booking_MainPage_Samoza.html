@@ -1,0 +1,157 @@
+<!DOCTYPE htmL>
+<html> 
+    <head> 
+        <link rel = " stylesheet " href = "Booking.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> Booking a Flight </title>
+        <style type = "text/css">
+            body {
+                background-image: url(background.PNG);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+           
+        </style>
+
+    </head>
+    <body>
+        <!--Main.html-->
+        <div class = "LogIn">
+                <img src= "logo.png" alt="logo" class="center" >
+
+        <p align = "center" text-align = "center">
+            <button class = "pass"> 
+                <i class="fa fa-user" ></i> <Input type ="text" name ="" placeholder="Username"/>
+            <br></button>
+        </p>
+
+        <p align = "center" text-align = "center">
+            <button class = "pass"> 
+                <i class="fa fa-lock" ></i> <Input type ="password" value ="" placeholder="Password"/>
+            <br></button>
+        </p>
+
+        <p align = "center" text-align = "center"> <br>
+            <a href="Welcome.html"> <button id = "login"> 
+                <i class="fa fa-login" ></i> Login
+            <br></button> </a>
+        </p>
+    
+        <p align = "center" text-align = "center"> <br> <br> 
+            <a href="https://www.facebook.com/"> <button id = "fb"> 
+                <i class="fa fa-facebook" ></i> Login with Facebook
+            <br></button> </a>
+        </p>
+
+        <p align = "center" text-align = "center"> <br> 
+            <a href = "https://mail.google.com/"> <button id = "google"> 
+                <i class="fa fa-google" ></i> Login with Google
+            <br></button> </a>
+        </p>
+        </div>
+
+         <!--Welcome.html-->
+         <div class= "Welcome">
+                <p align ="center" text-align ="center" style = "font-family: Viner Hand ITC; font-size: 40px "> <br> Welcome<br> to <br> Airpline</p>
+                <img src= "welcome.png" alt="logo" class="center" >
+        </div>
+    
+        <div class= "Tap">
+                <a href="Book.html" > <font color = "gray"> <p align ="center" style = "font-size: 40px"> <br> <br> Tap to Continue </p> </font> </a>
+
+        </div>
+        <!--Book.html-->
+         <!--Booking a Flight-->
+         <div class = "Book">
+                <img src = "User.png" alt= "User logo" align = "right" style= "width: 60px; height: 60px; padding-right: 30px; padding-top: 20px;">
+                
+                <p align = "right" text-align = "right" style = "padding-right: 100px; padding-top: 30px; font-family: Sitka Text; ">
+                    <button class = "search" > 
+                        <i class="fa fa-search" ></i> Search a Flight
+                    <br></button>
+                    <img src = "backk.png" alt = "Back logo" align = "left" style= "width: 40px; height: 40px; padding-left: 30px; padding-top: 15px;">
+                </p>
+    
+            </div>
+            <br> <br>
+            <!--Booking a Flight List-->
+            <div class= "Flight">
+                <p align = "center" text-align ="center" style = "font-family:Sitka Text; font-size: 50px;"> 
+                    Book a Flight
+    
+                </p>
+            </div>
+        <br>
+             <!--Choices Flight-->
+             <div class = "Radio">
+                 <p align = "center" style= "font-family:Sitka Text; font-size: 50px;"> 
+                    <input type = "radio" name = "One Way FLight" id = "one" value = "large"/>
+                    <Label for = "One"> One Way Flight <br></Label>
+                    <input type = "radio" name = "Two Way Flight" id = "two" value = "large"/>
+                    <Label for = "Two"> Two Way Flight </Label>
+                 </p>
+            </div>
+    <br> <br> 
+            <div class = "MNL2SYD">
+                <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                    <input type = "radio" name = "SYD" id = "SYD" value = "large"/>
+                    <Label for = "MNL"> &nbsp; &nbsp;&nbsp; &nbsp;  MNL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SYD <br></Label>
+                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Manila, PH &nbsp; &nbsp; &nbsp; &nbsp; Sydney, AUS<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; 8:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2:00 PM
+                </p>
+            </div>
+            <br> <br>
+            <div class = "MNL2SEL">
+                 <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                        <input type = "radio" name = "SEL" id = "SEL" value = "large"/>
+                        <Label for = "SEL"> &nbsp; &nbsp;&nbsp; &nbsp;  MNL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SEL <br></Label>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Manila, PH &nbsp; &nbsp; &nbsp; &nbsp; Seoul, S.Korea<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 12:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3:30 AM
+                 </p>
+            </div>
+            <br> <br>
+            <div class = "SYD2MNL">
+                <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                        <input type = "radio" name = "MNL" id = "MNL" value = "large"/>
+                        <Label for = "MNL"> &nbsp; &nbsp;&nbsp; &nbsp;  SYD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MNL <br></Label>
+                        &nbsp; &nbsp; &nbsp; Sydney, AUS &nbsp; &nbsp; &nbsp; &nbsp; Manila, PH<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 5:00 AM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11:00 AM
+                </p>
+            </div>
+            <br> <br>
+            <div class = "SEL2MNL">
+                <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                        <input type = "radio" name = "MNL" id = "MNL" value = "large"/>
+                        <Label for = "MNL"> &nbsp; &nbsp;&nbsp; &nbsp;  SEL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MNL <br></Label>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Seoul, S.Korea &nbsp; &nbsp; &nbsp; &nbsp; Manila, PH<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 5:30 PM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 PM
+                </p>
+            </div>
+            <br> <br>
+            <div class= "MNL2HK">
+                <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                        <input type = "radio" name = "HK" id = "HK" value = "large"/>
+                        <Label for = "HK"> &nbsp; &nbsp;&nbsp; &nbsp;  MNL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HK <br></Label>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Manila, PH &nbsp; &nbsp; Hong Kong, CHINA <br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 9:00 PM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 11:00 PM
+                </p>
+            </div>
+            <br> <br>
+            <div class = "HK2MNL">
+                <p align = "center" style = "font-family:Sitka Text; font-size: 40px;">
+                        <input type = "radio" name = "MNL" id = "MNL" value = "large"/>
+                        <Label for = "MNL"> &nbsp; &nbsp;&nbsp; &nbsp;  HK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class ="fa fa-plane"></i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MNL <br></Label>
+                        &nbsp; &nbsp; &nbsp; Hong Kong, CHINA &nbsp; &nbsp; Manila, PH <br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; 7:00 PM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 PM
+                </p>
+            </div>
+
+
+
+
+    </body>
+
+
+
+</html>
